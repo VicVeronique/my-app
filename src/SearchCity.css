@@ -1,0 +1,40 @@
+h1 {
+  color: white;
+  font-size: 44px;
+  text-shadow: hsl(0, 57%, 5%);
+  line-height: 40px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(137, 115, 159);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 18px;
+}
+
+.overview {
+  margin-bottom: 40px;
+}
+
+.updated {
+  color: rgb(97, 97, 97);
+}
+
+.form-control {
+  margin-top: 5px;
+  color: white;
+}
+
+::placeholder {
+  font-weight: 100;
+  font-size: 95%;
+  color: rgb(137, 115, 159);
+}

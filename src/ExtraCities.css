@@ -1,0 +1,21 @@
+.example-cities {
+  text-decoration: none;
+  color: rgb(212, 59, 212);
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.example-cities:hover {
+  text-decoration: none;
+  color: rgb(212, 59, 212);
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}

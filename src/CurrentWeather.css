@@ -1,0 +1,57 @@
+.weather-img {
+  height: 90px;
+  width: 90px;
+  margin-top: -17px;
+  margin-left: -5px;
+}
+
+.units {
+  margin-left: 1px;
+  margin-top: 10px;
+}
+
+.temp-units {
+  top: -16px;
+  position: relative;
+}
+
+.temp-units .active {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+
+.temp-units .active:hover {
+  text-decoration: none;
+}
+
+.temp-units .passive {
+  text-decoration: none;
+  color: rgb(212, 59, 212);
+}
+
+.temp-units .passive:hover {
+  text-decoration: none;
+}
+
+.temp {
+  font-size: 38px;
+}
+
+.seconds {
+  text-transform: lowercase;
+}
+
+.sign {
+  font-size: large;
+}
+
+.extra {
+  line-height: 25px;
+  margin-left: 5px;
+  margin-top: -4px;
+}
+
+.sign-extra {
+  color: rgb(97, 97, 97);
+}

@@ -1,23 +1,24 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Weather from "./Weather";
+import React from "react";
+import Source from "./Source";
+import ExtraCities from "./ExtraCities";
+import SearchCity from "./SearchCity";
+import Forecast from "./Forecast";
+
+import "./Container.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Victoria!</p>
-        <Weather />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="weather-app-wrap">
+        <div className="weather-app">
+          <div className="inside-border">
+            <ExtraCities />
+            <SearchCity city="Lutsk" />
+            <Forecast />
+          </div>
+          <Source />
+        </div>
+      </div>
     </div>
   );
 }

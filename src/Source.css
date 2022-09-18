@@ -1,0 +1,11 @@
+.source {
+  text-align: center;
+  font-size: 90%;
+  margin-top: 20px;
+  line-height: 13px;
+}
+
+.open-source {
+  color: rgb(212, 59, 212);
+  text-decoration: none;
+}
