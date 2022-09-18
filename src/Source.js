@@ -8,7 +8,7 @@ export default function Source() {
       <p>
         <small>
           <a
-            href="https://github.com/VicVeronique/Vanilla-weather-app.git"
+            href="https://github.com/VicVeronique/my-app.git"
             target="_blank"
             className="open-source"
             rel="noreferrer"
